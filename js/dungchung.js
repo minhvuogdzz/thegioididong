@@ -1,6 +1,6 @@
 var adminInfo = [{
     "username": "admin",
-    "pass": "adadad"
+    "pass": "minhvuongdzai"
 }];
 
 function getListAdmin() {
@@ -59,9 +59,6 @@ function timKiemTheoMa(list, ma) {
         if (l.masp == ma) return l;
     }
 }
-
-// copy 1 object, do trong js ko có tham biến , tham trị rõ ràng
-// nên dùng bản copy để chắc chắn ko ảnh hưởng tới bản chính
 function copyObject(o) {
     return JSON.parse(JSON.stringify(o));
 }
@@ -521,7 +518,7 @@ function addTopNav() {
 	<div class="top-nav group">
         <section>
             <div class="social-top-nav">
-                <a class="fa fa-facebook"></a>
+                <a href="https://www.facebook.com/minhvuog.dev/" target="_blank" class="fa fa-facebook"></a>
                 <a class="fa fa-twitter"></a>
                 <a class="fa fa-google"></a>
                 <a class="fa fa-youtube"></a>
@@ -545,7 +542,7 @@ function addHeader() {
 	<div class="header group">
         <div class="logo">
             <a href="index.html">
-                <img src="img/logo.jpg" alt="Trang chủ Smartphone Store" title="Trang chủ Smartphone Store">
+                <img src="img/logo.png" alt="Trang chủ MVD Smart" title="Trang chủ MVD Smart">
             </a>
         </div> <!-- End Logo -->
 
@@ -606,8 +603,8 @@ function addFooter() {
 
     <!-- ============== Footer ============= -->
     <div class="copy-right">
-        <p><a href="index.html">LDD Phone Store</a> - All rights reserved © 2021 - Designed by
-            <span style="color: #eee; font-weight: bold">group 15th</span></p>
+        <p> <a href="index.html">MVD Smart</a> - All rights reserved © 2023 - Designed by
+            <span style="color: #eee; font-weight: bold">Minh Vuong Duong IT - Web Developper</span></p>
     </div>`);
 }
 

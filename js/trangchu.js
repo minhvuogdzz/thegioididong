@@ -2,12 +2,13 @@ window.onload = function () {
 	khoiTao();
 
 	// Thêm hình vào banner
-	addBanner("img/banners/banner0.gif", "img/banners/banner0.gif");
-	var numBanner = 9; // Số lượng hình banner
-	for (var i = 1; i <= numBanner; i++) {
-		var linkimg = "img/banners/banner" + i + ".png";
-		addBanner(linkimg, linkimg);
-	}
+addBanner("img/banners/banner0.gif", "img/banners/banner0.gif");
+var numBanner = 8; // Số lượng hình banner
+for (var i = 1; i <= numBanner; i++) {
+    var linkimg = "img/banners/banner" + i + ".png";
+    addBanner(linkimg, linkimg);
+}
+addBanner("img/banners/banner9.gif", "img/banners/banner9.gif");
 
 	// Khởi động thư viện hỗ trợ banner - chỉ chạy khi đã tạo hình trong banner
 	var owl = $('.owl-carousel');
@@ -389,7 +390,6 @@ function timKiemTheoRAM(list, luongRam, soluong) {
 	return result;
 }
 
-// ========== LỌC ===============
 // Thêm bộ lọc đã chọn vào html
 function addChoosedFilter(type, textInside) {
 	var link = createLinkFilter('remove', type);
@@ -569,8 +569,6 @@ function filterProductsStar(num) {
 	// Thông báo nếu không có sản phẩm
 	alertNotHaveProduct(coSanPham);
 }
-
-// ================= Hàm khác ==================
 
 // Thêm banner
 function addBanner(img, link) {
