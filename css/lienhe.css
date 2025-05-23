@@ -61,12 +61,12 @@ table button:hover{
 	text-align: center;
 }
 
-.github{
-	color: rgb(22, 22, 7)
+.web{
+	color: rgb(0, 0, 0)
 }
 
-.github:hover{
-	color: rgb(23, 65, 149)
+.web:hover{
+	color: rgb(18, 109, 169)
 }
 /* những tr chẵn sẽ có màu khác */
 .thongtinnhom tr:nth-of-type(even) {background-color: #f2f2f2;}
