@@ -603,7 +603,7 @@ function addFooter() {
 
     <!-- ============== Footer ============= -->
     <div class="copy-right">
-        <p> <a href="index.html">MVD Smart</a> - All rights reserved © 2023 - Designed by
+        <p> <a href="index.html">MVD Smart</a> - All rights reserved © 2024 - Designed by
             <span style="color: #eee; font-weight: bold">Minh Vuong Duong IT - Web Developper</span></p>
     </div>`);
 }
